@@ -2,12 +2,12 @@
   "name": "nodejs_demo",
   "version": "1.0.0",
   "description": "",
-  "main": "source/server.ts",
+  "main": "server.ts",
   "engines": {
     "node": "14.x"
   },
   "scripts": {
-    "start": "nodemon source/server.ts",
+    "start": "nodemon server.ts",
     "build": "rm -rg build/ && prettier --write source/ && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
