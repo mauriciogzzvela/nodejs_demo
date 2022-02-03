@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "source/server.ts",
+  "engines": {
+    "node": "17.x"
+  },
   "scripts": {
     "start": "nodemon source/server.ts",
     "build": "rm -rg build/ && prettier --write source/ && tsc",
